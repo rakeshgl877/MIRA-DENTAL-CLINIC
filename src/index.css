@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F4EC;
+    color: #252B26;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom smooth luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6A875;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #183D32;
+}
+
+/* Subtle editorial text balance */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Glass & delicate borders */
+.border-subtle {
+  border-color: rgba(24, 61, 50, 0.08);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #A88B58 0%, #C6A875 50%, #D8C29A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
