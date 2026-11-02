@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CLINIC_INFO } from '../data/clinicData';
 import { getWhatsAppUrl } from '../utils/whatsapp';
-import { ShieldCheck, Sparkles, Microscope, HeartHandshake, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Sparkles, Microscope, HeartHandshake, ArrowRight, MapPin } from 'lucide-react';
 
 interface AboutSectionProps {
   onOpenBooking: () => void;

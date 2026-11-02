@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CLINIC_INFO } from '../data/clinicData';
 import { getWhatsAppUrl } from '../utils/whatsapp';
-import { Calendar, ArrowRight, Star, ShieldCheck, Award, MapPin } from 'lucide-react';
+import { Calendar, ArrowRight, ShieldCheck, Award, MapPin } from 'lucide-react';
 
 interface HeroProps {
   onOpenBooking: () => void;

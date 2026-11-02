@@ -66,7 +66,6 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
                 </p>
 
               </div>
-              </div>
             </div>
 
             {/* Doctor Biography and Expertise Details */}
