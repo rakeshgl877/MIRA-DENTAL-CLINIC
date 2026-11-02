@@ -87,7 +87,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Dental Implants",
     tagline: "Permanent, natural-looking replacement for missing teeth",
     description: "Replace lost or damaged teeth with state-of-the-art titanium and zirconia dental implants that integrate seamlessly with your jawbone, restoring full chewing power and facial structure.",
-    image: "/images/implants.jpg",
+    image: `${import.meta.env.BASE_URL}images/implants.jpg`,
     benefits: [
       "Titanium root fixture mimics natural tooth physiology",
       "Prevents bone loss and facial sagging",
@@ -103,7 +103,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Root Canal Treatment",
     tagline: "Microscope-guided, single-sitting painless endodontics",
     description: "Save your infected or severely painful natural tooth. Dr. Ashwini Marurkar (MDS Endodontics, Gold Medalist) utilizes rotary instruments and digital apex locators for virtually painless, swift therapy.",
-    image: "/images/root-canal.jpg",
+    image: `${import.meta.env.BASE_URL}images/root-canal.jpg`,
     benefits: [
       "Led by university gold medalist Endodontist",
       "Painless procedure using advanced computerized anesthesia",
@@ -119,7 +119,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Invisalign & Clear Aligners",
     tagline: "Virtually invisible teeth straightening without wires",
     description: "Achieve a straight, harmonious smile with discreet, removable clear aligners. Custom-fabricated from 3D intraoral scans to gradually align teeth with zero metal irritation.",
-    image: "/images/invisalign.jpg",
+    image: `${import.meta.env.BASE_URL}images/invisalign.jpg`,
     benefits: [
       "100% transparent and discreet for work and social life",
       "Removable while eating, brushing, and flossing",
@@ -135,7 +135,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Braces & Orthodontics",
     tagline: "Precision bite correction and dental alignment for all ages",
     description: "Comprehensive orthodontic care utilizing self-ligating metal and tooth-colored ceramic brackets to correct malocclusions, bite imbalances, and irregular tooth positions.",
-    image: "/images/orthodontics.jpg",
+    image: `${import.meta.env.BASE_URL}images/orthodontics.jpg`,
     benefits: [
       "Ceramic tooth-colored brackets available for aesthetic discretion",
       "Self-ligating technology for reduced friction and fewer clinic visits",
@@ -151,7 +151,7 @@ export const TREATMENTS: Treatment[] = [
     name: "Smile Designing & Veneers",
     tagline: "Handcrafted cosmetic dentistry to unlock your dream smile",
     description: "A tailored blend of porcelain veneers, aesthetic bonding, gum contouring, and medical teeth whitening to sculpt symmetrical, luminous smiles tailored to your unique facial features.",
-    image: "/images/smile-design.jpg",
+    image: `${import.meta.env.BASE_URL}images/smile-design.jpg`,
     benefits: [
       "Ultra-thin ceramic porcelain veneers resistant to staining",
       "Harmonious tooth shade matching and micro-texture detailing",
@@ -167,7 +167,7 @@ export const TREATMENTS: Treatment[] = [
     name: "General & Preventive Dentistry",
     tagline: "Comprehensive care for the entire family's dental wellness",
     description: "From gentle ultrasonic scaling and deep polishings to tooth-colored composite restorations and pediatric sealants, we safeguard your long-term dental health through preventive excellence.",
-    image: "/images/general-dentistry.jpg",
+    image: `${import.meta.env.BASE_URL}images/general-dentistry.jpg`,
     benefits: [
       "Ultrasonic tartar & plaque removal with gentle polish",
       "BPA-free composite fillings matching natural enamel translucency",
@@ -196,7 +196,7 @@ export const DOCTORS: Doctor[] = [
     ],
     bio: "Dr. Ashwini Marurkar is a distinguished Endodontist, certified implantologist, and the visionary founder of Mira Dental Care & Implant Centre. Recognized with a prestigious University Gold Medal in MDS Conservative Dentistry & Endodontics, she brings over a decade of clinical precision to Hesarghatta Main Road, Bengaluru. Renowned for her gentle chairside manner, Dr. Ashwini has successfully relieved thousands of patients from dental pain through microscopic single-sitting root canal treatments and modern implant restorations.",
     philosophy: "I believe true dental care is where scientific precision meets gentle compassion. No patient should ever fear the dental chair—our mission is to deliver pain-free treatments with absolute transparency and meticulous aesthetic detail.",
-    image: "/images/doctor-ashwini.jpg",
+    image: `${import.meta.env.BASE_URL}images/doctor-ashwini.jpg`,
     isRepresentativeImage: true
   }
 ];
@@ -276,42 +276,42 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Welcoming Reception & Patient Lounge",
     category: "Ambiance",
     description: "Soothing, clutter-free reception area designed to calm dental anxiety before your appointment.",
-    image: "/images/gallery-reception.jpg"
+    image: `${import.meta.env.BASE_URL}images/gallery-reception.jpg`
   },
   {
     id: "gal-2",
     title: "Advanced Ergonomic Operatory Suite",
     category: "Treatment Suite",
     description: "Fully motorized ergonomic dental chair equipped with fiber-optic LED illuminators.",
-    image: "/images/gallery-operatory.jpg"
+    image: `${import.meta.env.BASE_URL}images/gallery-operatory.jpg`
   },
   {
     id: "gal-3",
     title: "Digital RVG & Diagnostic Imaging",
     category: "Technology",
     description: "High-frequency intraoral Radiovisiography (RVG) delivering immediate diagnostic precision with 90% less radiation.",
-    image: "/images/gallery-rvg.jpg"
+    image: `${import.meta.env.BASE_URL}images/gallery-rvg.jpg`
   },
   {
     id: "gal-4",
     title: "Multi-Tier Sterilization Zone",
     category: "Hygiene",
     description: "Hospital-grade Class-B vacuum autoclave and chemical pouch sealers ensuring 100% sterile instruments.",
-    image: "/images/gallery-sterilization.jpg"
+    image: `${import.meta.env.BASE_URL}images/gallery-sterilization.jpg`
   },
   {
     id: "gal-5",
     title: "Private Consultation & Case Review",
     category: "Consultation",
     description: "Dedicated digital consultation desk where treatment plans, 3D simulations, and timelines are transparently discussed.",
-    image: "/images/gallery-consultation.jpg"
+    image: `${import.meta.env.BASE_URL}images/gallery-consultation.jpg`
   },
   {
     id: "gal-6",
     title: "Patient Comfort & Recovery Lounge",
     category: "Comfort",
     description: "Quiet relaxation area post-procedure with warm refreshments and detailed aftercare guidance.",
-    image: "/images/gallery-lounge.jpg"
+    image: `${import.meta.env.BASE_URL}images/gallery-lounge.jpg`
   }
 ];
 
