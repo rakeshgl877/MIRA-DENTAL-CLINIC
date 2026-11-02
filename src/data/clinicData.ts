@@ -92,7 +92,7 @@ export const TREATMENTS: Treatment[] = [
       "Titanium root fixture mimics natural tooth physiology",
       "Prevents bone loss and facial sagging",
       "Lifetime durability with proper oral hygiene",
-      "Precision guided surgical placement for minimal healing time"
+      "Treatment plan and timing depend on the case"
     ],
     duration: "2 - 3 visits (Surgical placement + Custom crown fitting)",
     idealFor: "Patients with single or multiple missing teeth looking for fixed replacement",
@@ -101,14 +101,14 @@ export const TREATMENTS: Treatment[] = [
   {
     id: "root-canal",
     name: "Root Canal Treatment",
-    tagline: "Microscope-guided, single-sitting painless endodontics",
+    tagline: "A consultation to discuss root canal care",
     description: "A dentist assesses the tooth and discusses suitable options. Contact the clinic to confirm current treatment availability.",
     image: `${import.meta.env.BASE_URL}images/root-canal.jpg`,
     benefits: [
-      "Led by university gold medalist Endodontist",
-      "Painless procedure using advanced computerized anesthesia",
-      "Completed in single-visit for 85% of standard cases",
-      "Hermetic 3D sealing preventing re-infection"
+      "Assessment by a dentist",
+      "Options explained during consultation",
+      "Treatment timing depends on the case",
+      "Follow-up care as advised by the dentist"
     ],
     duration: "Single visit (45 - 60 minutes) for most cases",
     idealFor: "Patients suffering from toothache, deep cavities, sensitivity to hot/cold, or swelling",
@@ -121,7 +121,7 @@ export const TREATMENTS: Treatment[] = [
     description: "Achieve a straight, harmonious smile with discreet, removable clear aligners. Custom-fabricated from 3D intraoral scans to gradually align teeth with zero metal irritation.",
     image: `${import.meta.env.BASE_URL}images/invisalign.jpg`,
     benefits: [
-      "100% transparent and discreet for work and social life",
+      "Removable aligners are one option for some cases",
       "Removable while eating, brushing, and flossing",
       "Custom 3D preview of your final smile before treatment begins",
       "Smooth, comfortable edges that never cut gums or cheeks"
@@ -171,7 +171,7 @@ export const TREATMENTS: Treatment[] = [
     benefits: [
       "Ultrasonic tartar & plaque removal with gentle polish",
       "BPA-free composite fillings matching natural enamel translucency",
-      "Digital RVG diagnostic X-rays with 90% reduced radiation",
+      "Diagnostic imaging if recommended by the dentist",
       "Pediatric preventative sealants and fluoridation"
     ],
     duration: "30 - 45 minutes for comprehensive checkup and cleaning",
@@ -201,26 +201,7 @@ export const DOCTORS: Doctor[] = [
   }
 ];
 
-export const ASSOCIATE_TEAM = [
-  {
-    name: "Dr. Neha Sharma",
-    role: "Associate Dental Surgeon",
-    degrees: "BDS",
-    focus: "General Dentistry, Pediatric Preventive Care & Prophylaxis"
-  },
-  {
-    name: "Visiting Orthodontic Specialist",
-    role: "Consultant Orthodontist",
-    degrees: "MDS (Orthodontics & Dentofacial Orthopedics)",
-    focus: "Invisalign Aligners & Complex Bite Corrections"
-  },
-  {
-    name: "Visiting Maxillofacial Surgeon",
-    role: "Consultant Oral & Maxillofacial Surgeon",
-    degrees: "MDS (Oral & Maxillofacial Surgery)",
-    focus: "Impacted Wisdom Tooth Extractions & Bone Grafting"
-  }
-];
+export const ASSOCIATE_TEAM = [];
 
 export const TESTIMONIALS: Testimonial[] = [];
 
@@ -246,18 +227,18 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq-1",
     question: "Where is Mira Dental Clinic located and how can I find it?",
-    answer: "Mira Dental Care & Implant Centre is located at #378, 1st Floor, Pujar Complex, 60 Feet Road, MEI Layout, Bagalagunte, Bengaluru – 560073. We are situated directly opposite MEI Ground / Stadium, easily accessible from Hesarghatta Main Road with convenient parking nearby.",
+    answer: "Mira Dental Care & Implant Centre is located at #378, 1st Floor, Pujar Complex, 60 Feet Road, MEI Layout, Bagalagunte, Bengaluru – 560073. The clinic is listed near MEI Ground on Hesarghatta Main Road.",
     category: "location"
   },
   {
     id: "faq-2",
     question: "How do I book an appointment with Dr. Ashwini Marurkar?",
-    answer: "You can book easily via WhatsApp by clicking any of the 'Book Consultation' buttons across our website, or by calling us directly at +91 63629 46204. Our front desk will confirm a dedicated time slot to ensure zero waiting time.",
+    answer: "You can book easily via WhatsApp by clicking any of the 'Book Consultation' buttons across our website, or by calling us directly at +91 63629 46204. The clinic will confirm appointment availability.",
     category: "appointments"
   },
   {
     id: "faq-3",
-    question: "Is root canal treatment (RCT) really painless?",
+    question: "What should I expect during root canal treatment?",
     answer: "Comfort and treatment approach depend on the individual case. Please discuss pain management and options with the dentist during a consultation.",
     category: "treatments"
   },
@@ -276,7 +257,7 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq-6",
     question: "What safety and sterilization standards do you maintain?",
-    answer: "We adhere strictly to international multi-stage sterilization protocols. Every non-disposable instrument undergoes ultrasonic cleaning, packaging in medical-grade pouches, and high-pressure steam sterilization in a Class-B autoclave.",
+    answer: "Please contact the clinic to ask about its current sterilization procedures.",
     category: "general"
   },
   {
@@ -310,8 +291,8 @@ export const TRUST_POINTS = [
     description: "Confirm treatment options and current availability directly with the clinic."
   },
   {
-    title: "Strict Sterilization",
-    subtitle: "Class-B Autoclave Protocol",
-    description: "Hospital-grade multi-tier hygiene, sealed single-use pouches and sanitized operatory suites."
+    title: "Patient comfort",
+    subtitle: "Ask about clinic procedures",
+    description: "Contact the clinic with questions about sterilization and visit preparation."
   }
 ];

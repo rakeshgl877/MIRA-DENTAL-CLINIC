@@ -24,7 +24,7 @@ export const TreatmentsSection: React.FC<TreatmentsSectionProps> = ({ onSelectTr
             Tailored Treatments for Lifelong Dental Health
           </h2>
           <p className="text-base sm:text-lg text-charcoal/70 leading-relaxed font-normal">
-            From single-sitting painless endodontics and Swedish dental implants to invisible orthodontic aligners, experience uncompromising clinical precision under expert care.
+            Contact the clinic to confirm current services, treatment options and appointment availability.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export const TreatmentsSection: React.FC<TreatmentsSectionProps> = ({ onSelectTr
                   
                   {/* Floating Treatment Category Pill */}
                   <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-sm px-3 py-1 rounded-full text-[11px] font-bold text-forest uppercase tracking-wider shadow-sm">
-                    {treatment.id === 'root-canal' ? 'Gold Medalist Specialty' : 'Advanced Procedure'}
+                    Treatment option
                   </div>
 
                   {/* Duration on bottom right of image */}

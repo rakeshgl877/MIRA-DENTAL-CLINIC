@@ -61,8 +61,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-base sm:text-lg lg:text-xl text-charcoal/80 font-normal leading-relaxed max-w-2xl mb-8"
             >
-              {CLINIC_INFO.subTagline} Led by University Gold Medalist{' '}
-              <strong className="text-forest font-semibold">Dr. Ashwini Marurkar</strong> (MDS Endodontics), providing painless root canal therapies, dental implants, and precision smile artistry.
+              {CLINIC_INFO.subTagline} Led by <strong className="text-forest font-semibold">Dr. Ashwini Marurkar</strong> (BDS, MDS Conservative Dentistry & Endodontics), with treatment options discussed during a personal consultation.
             </motion.p>
 
             {/* CTAs */}
@@ -108,7 +107,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5 text-forest font-semibold text-sm mb-1">
                   <Award className="w-4 h-4 text-gold" />
-                  <span>Gold Medalist</span>
+                  <span>Dentist</span>
                 </div>
                 <span className="text-xs text-charcoal/70">
                   MDS Endodontist & Implant Specialist
@@ -119,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               <div className="flex flex-col col-span-2 sm:col-span-1">
                 <div className="flex items-center gap-1.5 text-forest font-semibold text-sm mb-1">
                   <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                  <span>Painless Precision</span>
+                  <span>Patient-focused care</span>
                 </div>
                 <span className="text-xs text-charcoal/70">
                   Rotary RVG & Computerized Tech
@@ -157,7 +156,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="text-[11px] uppercase tracking-wider text-gold-600 font-bold">
-                        Specialized Dental Care
+                        Clinic information
                       </div>
                       <div className="text-sm font-bold text-forest">
                         Mira Dental Care & Implant Centre
@@ -182,7 +181,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               {/* Floating Top-Right Accreditation Pill */}
               <div className="absolute -top-4 -right-2 sm:-right-4 bg-forest text-ivory px-4 py-2 rounded-full shadow-lg border border-gold/40 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-gold animate-ping" />
-                <span className="text-xs font-semibold text-ivory">10+ Years Excellence</span>
+                <span className="text-xs font-semibold text-ivory">MDS qualification</span>
               </div>
 
             </motion.div>

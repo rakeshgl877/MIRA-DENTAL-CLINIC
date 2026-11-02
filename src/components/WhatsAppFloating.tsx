@@ -7,7 +7,7 @@ export const WhatsAppFloating: React.FC = () => {
 
   const quickPrompts = [
     { label: "Book a consultation slot", msg: "Hi Mira Dental Clinic, I would like to book a consultation appointment." },
-    { label: "Enquire about Root Canal (RCT)", msg: "Hi Mira Dental Clinic, I would like to enquire about painless Root Canal Treatment with Dr. Ashwini." },
+    { label: "Enquire about Root Canal (RCT)", msg: "Hi Mira Dental Clinic, I would like to enquire about Root Canal Treatment with Dr. Ashwini." },
     { label: "Enquire about Dental Implants", msg: "Hi Mira Dental Clinic, I would like to enquire about Dental Implants and costs." },
     { label: "Emergency tooth pain relief", msg: "Hi Mira Dental Clinic, I have severe tooth pain and need an urgent appointment today." }
   ];

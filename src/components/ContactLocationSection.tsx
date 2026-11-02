@@ -20,10 +20,10 @@ export const ContactLocationSection: React.FC<ContactLocationSectionProps> = ({ 
             Visit & Connect
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold text-forest mb-4 leading-tight">
-            Conveniently Located on Hesarghatta Main Road
+            Visit Mira Dental Care in Bagalagunte
           </h2>
           <p className="text-base sm:text-lg text-charcoal/70 leading-relaxed">
-            Situated opposite the MEI Ground in Bagalagunte, with accessible parking and dedicated patient appointment slots to respect your time.
+            The clinic is listed at Pujar Complex, Bagalagunte. Call ahead to confirm directions and appointment availability.
           </p>
         </div>
 
@@ -81,11 +81,11 @@ export const ContactLocationSection: React.FC<ContactLocationSectionProps> = ({ 
                   <div className="space-y-2 text-xs sm:text-sm text-charcoal/80">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-2 border-b border-forest/5 gap-1">
                       <span className="font-medium text-forest">Monday – Saturday:</span>
-                      <span className="text-charcoal/70">10:00 AM – 1:30 PM & 5:00 PM – 8:30 PM</span>
+                      <span className="text-charcoal/70">Call to confirm current hours</span>
                     </div>
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 pt-1">
                       <span className="font-medium text-forest">Sunday:</span>
-                      <span className="text-gold-700 font-semibold">10:00 AM – 1:00 PM (Prior Appointment)</span>
+                      <span className="text-gold-700 font-semibold">Call to confirm</span>
                     </div>
                   </div>
                 </div>

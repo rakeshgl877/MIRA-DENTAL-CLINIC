@@ -114,9 +114,8 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
               <div className="flex items-start gap-2.5">
                 <Clock className="w-4 h-4 text-gold shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-ivory font-medium">Mon – Sat:</div>
-                  <div>10:00 AM – 1:30 PM | 5:00 PM – 8:30 PM</div>
-                  <div className="text-gold mt-0.5">Sun: 10:00 AM – 1:00 PM (Appt only)</div>
+                  <div className="text-ivory font-medium">Clinic hours</div>
+                  <div>Call to confirm current hours</div>
                 </div>
               </div>
 

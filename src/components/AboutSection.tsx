@@ -46,7 +46,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
                         Modern Conservative Dentistry
                       </div>
                       <div className="text-xs text-ivory/70">
-                        Preserving your natural teeth with microscopic precision
+                        Treatment options discussed at your consultation
                       </div>
                     </div>
                   </div>
@@ -82,7 +82,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
               </p>
 
               <p className="text-sm sm:text-base text-charcoal/70 leading-relaxed mb-8">
-                We reject the cold, assembly-line approach of corporate dental chains. Instead, every patient is treated to private, unhurried consultations where digital X-rays and intraoral findings are explained transparently. From painless single-sitting root canals to dental implants and invisible braces, our goal is preserving your natural tooth structure for life.
+                Contact the clinic to discuss your dental concerns, available treatments, and appointment options. The dentist can explain findings and recommend care based on your needs.
               </p>
 
               {/* 3 Pillars Grid */}
@@ -90,30 +90,30 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
                 <div className="p-4 rounded-xl bg-white border border-forest/10 shadow-sm">
                   <ShieldCheck className="w-5 h-5 text-forest mb-2" />
                   <h4 className="font-serif text-base font-semibold text-forest mb-1">
-                    Class-B Autoclave
+                    Sterilization
                   </h4>
                   <p className="text-xs text-charcoal/70">
-                    Hospital-grade vacuum sterilization protocols ensuring absolute microbial sterility.
+                    Ask the clinic about its instrument sterilization process.
                   </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-forest/10 shadow-sm">
                   <Microscope className="w-5 h-5 text-gold mb-2" />
                   <h4 className="font-serif text-base font-semibold text-forest mb-1">
-                    Digital RVG Suite
+                    Diagnostics
                   </h4>
                   <p className="text-xs text-charcoal/70">
-                    High-definition instant sensor radiography with up to 90% reduced X-ray exposure.
+                    Ask the dentist which diagnostic tests are appropriate for your visit.
                   </p>
                 </div>
 
                 <div className="p-4 rounded-xl bg-white border border-forest/10 shadow-sm">
                   <HeartHandshake className="w-5 h-5 text-forest mb-2" />
                   <h4 className="font-serif text-base font-semibold text-forest mb-1">
-                    Zero Overtreatment
+                    Treatment planning
                   </h4>
                   <p className="text-xs text-charcoal/70">
-                    Transparent, conservative treatment plans without hidden costs or unnecessary steps.
+                    Discuss the recommended treatment plan and costs with the clinic.
                   </p>
                 </div>
               </div>

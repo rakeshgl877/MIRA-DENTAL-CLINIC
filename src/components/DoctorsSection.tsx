@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { DOCTORS, ASSOCIATE_TEAM } from '../data/clinicData';
+import { DOCTORS } from '../data/clinicData';
 import { getWhatsAppUrl } from '../utils/whatsapp';
 import { Award, GraduationCap, Calendar, Sparkles, CheckCircle2, ShieldCheck, UserCheck } from 'lucide-react';
 
@@ -43,7 +43,7 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
             <div className="lg:col-span-5 relative bg-forest-900 overflow-hidden flex flex-col justify-end min-h-[420px] lg:min-h-full">
               <img
                 src={leadDoctor.image}
-                alt={`${leadDoctor.name} — Endodontist and Lead Specialist at Mira Dental Clinic Bengaluru`}
+                alt={`${leadDoctor.name} — Dentist listed at Mira Dental Care & Implant Centre in Bengaluru`}
                 className="w-full h-full object-cover object-top opacity-95 hover:scale-102 transition-transform duration-700 absolute inset-0"
                 loading="lazy"
               />
@@ -103,7 +103,7 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
                 {/* Key Clinical Focus */}
                 <h4 className="font-serif text-lg font-semibold text-forest mb-3 flex items-center gap-2">
                   <GraduationCap className="w-4 h-4 text-gold" />
-                  Specialized Areas of Clinical Mastery
+                  Areas to discuss with the dentist
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-8">
                   {leadDoctor.specialization.map((spec, sIndex) => (
@@ -140,39 +140,9 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
           </div>
         </motion.div>
 
-        {/* Supporting Clinical Team Cards */}
-        <div>
-          <div className="text-center max-w-xl mx-auto mb-8">
-            <h3 className="font-serif text-2xl font-semibold text-forest mb-2">
-              Collaborative Multi-Specialty Care
-            </h3>
-            <p className="text-xs sm:text-sm text-charcoal/70">
-              In addition to our lead endodontist, Mira Dental Clinic brings trusted associate surgeons and consulting specialists under one roof.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {ASSOCIATE_TEAM.map((member, index) => (
-              <div
-                key={index}
-                className="p-6 rounded-2xl bg-white border border-forest/10 hover:border-gold/40 shadow-sm transition-all"
-              >
-                <div className="w-10 h-10 rounded-full bg-forest/5 text-forest flex items-center justify-center font-serif font-bold text-base mb-4">
-                  {member.name.charAt(0)}
-                </div>
-                <h4 className="font-serif text-lg font-semibold text-forest mb-0.5">
-                  {member.name}
-                </h4>
-                <div className="text-xs font-semibold text-gold-600 mb-1">
-                  {member.role} ({member.degrees})
-                </div>
-                <p className="text-xs text-charcoal/70 leading-relaxed">
-                  Focus: {member.focus}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+        <p className="text-center text-sm text-charcoal/70">
+          Contact the clinic to confirm which clinicians and treatment services are currently available.
+        </p>
 
       </div>
     </section>

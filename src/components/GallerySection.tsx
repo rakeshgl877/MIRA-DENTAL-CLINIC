@@ -46,13 +46,13 @@ export const GallerySection: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-forest/5 border border-forest/15 text-forest text-xs font-semibold uppercase tracking-widest mb-3">
             <Sparkles className="w-3.5 h-3.5 text-gold" />
-            Clinic Infrastructure
+            Clinic photos
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-semibold text-forest mb-4 leading-tight">
             Step Inside Mira Dental Clinic
           </h2>
           <p className="text-base sm:text-lg text-charcoal/70 leading-relaxed">
-            Designed for uncompromising clinical hygiene, advanced digital radiography, and a tranquil, anxiety-free atmosphere.
+            Storefront photos from the clinic’s public Practo profile; the images retain their source watermark.
           </p>
         </div>
 
