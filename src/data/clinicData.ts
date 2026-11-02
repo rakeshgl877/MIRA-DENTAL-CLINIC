@@ -67,15 +67,15 @@ export const CLINIC_INFO = {
     pincode: "560073"
   },
   timings: [
-    { days: "Monday – Saturday", morning: "10:00 AM – 1:30 PM", evening: "5:00 PM – 8:30 PM" },
-    { days: "Sunday", morning: "10:00 AM – 1:00 PM", evening: "By Prior Appointment" }
+    { days: "Monday – Saturday", morning: "Call to confirm", evening: "Call to confirm" },
+    { days: "Sunday", morning: "Call to confirm", evening: "Call to confirm" }
   ],
   stats: {
-    rating: 4.8,
-    reviewsCount: "238+",
-    yearsExperience: "10+",
-    smilesRestored: "5,000+",
-    painlessCommitment: "100%"
+    rating: null,
+    reviewsCount: "",
+    yearsExperience: "",
+    smilesRestored: "",
+    painlessCommitment: ""
   },
   mapsUrl: "https://maps.google.com/?q=Mira+Dental+Care+and+Implant+Centre+Bagalagunte+Bangalore",
   mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7262106338573!2d77.50058537590886!3d13.049444313101168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d19f2a74c73%3A0x6bbf692f8efb54a7!2sMira%20Dental%20Care%20%26%20Implant%20Centre!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
@@ -102,7 +102,7 @@ export const TREATMENTS: Treatment[] = [
     id: "root-canal",
     name: "Root Canal Treatment",
     tagline: "Microscope-guided, single-sitting painless endodontics",
-    description: "Save your infected or severely painful natural tooth. Dr. Ashwini Marurkar (MDS Endodontics, Gold Medalist) utilizes rotary instruments and digital apex locators for virtually painless, swift therapy.",
+    description: "A dentist assesses the tooth and discusses suitable options. Contact the clinic to confirm current treatment availability.",
     image: `${import.meta.env.BASE_URL}images/root-canal.jpg`,
     benefits: [
       "Led by university gold medalist Endodontist",
@@ -183,20 +183,20 @@ export const TREATMENTS: Treatment[] = [
 export const DOCTORS: Doctor[] = [
   {
     name: "Dr. Ashwini Marurkar",
-    role: "Lead Specialist & Clinical Director",
+    role: "Dentist",
     degrees: "BDS, MDS (Conservative Dentistry & Endodontics)",
-    goldMedal: "University Gold Medalist & Rank Holder",
-    regNumber: "KSDC Reg. No: 31570A",
-    experience: "10+ Years of Clinical Excellence",
+    goldMedal: "MDS Conservative Dentistry & Endodontics",
+    regNumber: "",
+    experience: "Clinic profile",
     specialization: [
-      "Microscopic & Rotary Endodontics (Painless RCT)",
-      "Dental Implantology & Crown Restorations",
-      "Aesthetic Smile Designing & Veneers",
-      "Full Mouth Restorative Rehabilitation"
+      "Conservative Dentistry & Endodontics",
+      "Root canal treatment",
+      "Dental consultation",
+      "Preventive dental care"
     ],
-    bio: "Dr. Ashwini Marurkar is a distinguished Endodontist, certified implantologist, and the visionary founder of Mira Dental Care & Implant Centre. Recognized with a prestigious University Gold Medal in MDS Conservative Dentistry & Endodontics, she brings over a decade of clinical precision to Hesarghatta Main Road, Bengaluru. Renowned for her gentle chairside manner, Dr. Ashwini has successfully relieved thousands of patients from dental pain through microscopic single-sitting root canal treatments and modern implant restorations.",
-    philosophy: "I believe true dental care is where scientific precision meets gentle compassion. No patient should ever fear the dental chair—our mission is to deliver pain-free treatments with absolute transparency and meticulous aesthetic detail.",
-    image: `${import.meta.env.BASE_URL}images/doctor-ashwini.jpg`,
+    bio: "Dr. Ashwini Marurkar is listed on the clinic profile as a dentist with BDS and MDS qualifications in Conservative Dentistry & Endodontics. Contact the clinic directly to confirm current treatments and appointment availability.",
+    philosophy: "Personalized dental care with a focus on patient comfort.",
+    image: `${import.meta.env.BASE_URL}images/dr-ashwini-profile.webp`,
     isRepresentativeImage: true
   }
 ];
@@ -222,97 +222,24 @@ export const ASSOCIATE_TEAM = [
   }
 ];
 
-export const TESTIMONIALS: Testimonial[] = [
-  {
-    id: "rev-1",
-    name: "Suresh Gowda",
-    treatment: "Root Canal Treatment & Zirconia Crown",
-    rating: 5,
-    date: "Verified Google Review",
-    comment: "I was extremely anxious about getting a root canal done after postponing it for 6 months. Dr. Ashwini Marurkar explained every step before starting and did the entire procedure with zero pain. The clinic in Bagalagunte is spotlessly clean and very well maintained. Truly the best dental experience I've had in Bengaluru.",
-    verifiedSource: "Google Review"
-  },
-  {
-    id: "rev-2",
-    name: "Pooja V. Nair",
-    treatment: "Dental Implants & Consultation",
-    rating: 5,
-    date: "Verified Google Review",
-    comment: "Dr. Ashwini is very polite, soft spoken and genuine. Unlike many commercial clinics that push unnecessary procedures, she gave me an honest assessment and saved my adjacent teeth. My dental implant was placed smoothly without swelling. Highly recommend Mira Dental Clinic to anyone on Hesarghatta Road.",
-    verifiedSource: "Google Review"
-  },
-  {
-    id: "rev-3",
-    name: "Rajesh Kumar",
-    treatment: "Scaling & Tooth Fillings",
-    rating: 5,
-    date: "Verified Google Review",
-    comment: "Excellent clinic ambiance right opposite MEI Ground. Both Dr. Ashwini and Dr. Neha took great care of my mother's dental issues. The digital X-rays were shown on screen immediately and the pricing is very reasonable. Definitely our family dentist now.",
-    verifiedSource: "Google Review"
-  },
-  {
-    id: "rev-4",
-    name: "Meenakshi Sundaram",
-    treatment: "Smile Designing & Ceramic Crowns",
-    rating: 5,
-    date: "Verified Google Review",
-    comment: "Had severe discoloration and chipped front teeth from years ago. Dr. Ashwini transformed my smile with custom crowns that look 100% natural. People at work keep complimenting my smile. The warmth and attention to hygiene here are unmatched.",
-    verifiedSource: "Google Review"
-  },
-  {
-    id: "rev-5",
-    name: "Vinay Prasad",
-    treatment: "Emergency RCT & Pain Relief",
-    rating: 5,
-    date: "Verified Google Review",
-    comment: "Came in with unbearable night pain in my lower molar. Dr. Ashwini accommodated me on urgent notice and within 30 minutes the pain was completely gone. Cleanliness standards and sterilization here are top class.",
-    verifiedSource: "Google Review"
-  }
-];
+export const TESTIMONIALS: Testimonial[] = [];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "gal-1",
-    title: "Welcoming Reception & Patient Lounge",
-    category: "Ambiance",
-    description: "Soothing, clutter-free reception area designed to calm dental anxiety before your appointment.",
-    image: `${import.meta.env.BASE_URL}images/gallery-reception.jpg`
+    title: "Mira Dental Care storefront",
+    category: "Clinic exterior",
+    description: "Daytime storefront photo from the clinic's public Practo profile. Photo retains its source watermark.",
+    image: `${import.meta.env.BASE_URL}images/mira-clinic-exterior-day.jpg`
   },
   {
     id: "gal-2",
-    title: "Advanced Ergonomic Operatory Suite",
-    category: "Treatment Suite",
-    description: "Fully motorized ergonomic dental chair equipped with fiber-optic LED illuminators.",
-    image: `${import.meta.env.BASE_URL}images/gallery-operatory.jpg`
+    title: "Mira Dental Care at evening",
+    category: "Clinic exterior",
+    description: "Evening storefront photo from the clinic's public Practo profile. Photo retains its source watermark.",
+    image: `${import.meta.env.BASE_URL}images/mira-clinic-exterior-evening.jpg`
   },
-  {
-    id: "gal-3",
-    title: "Digital RVG & Diagnostic Imaging",
-    category: "Technology",
-    description: "High-frequency intraoral Radiovisiography (RVG) delivering immediate diagnostic precision with 90% less radiation.",
-    image: `${import.meta.env.BASE_URL}images/gallery-rvg.jpg`
-  },
-  {
-    id: "gal-4",
-    title: "Multi-Tier Sterilization Zone",
-    category: "Hygiene",
-    description: "Hospital-grade Class-B vacuum autoclave and chemical pouch sealers ensuring 100% sterile instruments.",
-    image: `${import.meta.env.BASE_URL}images/gallery-sterilization.jpg`
-  },
-  {
-    id: "gal-5",
-    title: "Private Consultation & Case Review",
-    category: "Consultation",
-    description: "Dedicated digital consultation desk where treatment plans, 3D simulations, and timelines are transparently discussed.",
-    image: `${import.meta.env.BASE_URL}images/gallery-consultation.jpg`
-  },
-  {
-    id: "gal-6",
-    title: "Patient Comfort & Recovery Lounge",
-    category: "Comfort",
-    description: "Quiet relaxation area post-procedure with warm refreshments and detailed aftercare guidance.",
-    image: `${import.meta.env.BASE_URL}images/gallery-lounge.jpg`
-  }
+
 ];
 
 export const FAQS: FAQItem[] = [
@@ -331,13 +258,13 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq-3",
     question: "Is root canal treatment (RCT) really painless?",
-    answer: "Yes. Dr. Ashwini Marurkar holds an MDS Gold Medal in Conservative Dentistry and Endodontics. Utilizing computer-controlled localized anesthesia, digital apex locators, and rotary endodontics, the treatment is virtually sensation-free, providing immediate relief from toothache.",
+    answer: "Comfort and treatment approach depend on the individual case. Please discuss pain management and options with the dentist during a consultation.",
     category: "treatments"
   },
   {
     id: "faq-4",
     question: "What are your clinic timings?",
-    answer: "We are open Monday through Saturday with split sessions: Morning 10:00 AM – 1:30 PM, and Evening 5:00 PM – 8:30 PM. On Sundays, we are open 10:00 AM – 1:00 PM by prior appointment.",
+    answer: "Clinic hours shown in online directories differ. Please call the clinic at +91 63629 46204 to confirm today’s hours before visiting.",
     category: "appointments"
   },
   {
@@ -368,19 +295,19 @@ export const FAQS: FAQItem[] = [
 
 export const TRUST_POINTS = [
   {
-    title: "4.8★ Google Rating",
-    subtitle: "Over 238+ real patient reviews",
-    description: "Consistently rated highest on Hesarghatta Main Road for patient satisfaction and comfort."
+    title: "Mira Dental Care",
+    subtitle: "Clinic profile and patient feedback",
+    description: "Visit the clinic’s public listing for current details and patient feedback."
   },
   {
-    title: "MDS Gold Medalist",
-    subtitle: "Led by Dr. Ashwini Marurkar",
-    description: "Academic rank-holder in Endodontics & Conservative Dentistry with 10+ years specialized experience."
+    title: "Dr. Ashwini Marurkar",
+    subtitle: "BDS, MDS Conservative Dentistry & Endodontics",
+    description: "Qualifications listed on the clinic’s public profile."
   },
   {
-    title: "100% Painless Tech",
-    subtitle: "Rotary Endodontics & RVG",
-    description: "Digital diagnostics, apex locators and computerized anesthesia for quiet, stress-free procedures."
+    title: "Appointments",
+    subtitle: "Call or message the clinic",
+    description: "Confirm treatment options and current availability directly with the clinic."
   },
   {
     title: "Strict Sterilization",

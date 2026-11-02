@@ -29,7 +29,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
               {/* Main Image Frame */}
               <div className="relative rounded-2xl overflow-hidden shadow-luxury border-2 border-white bg-forest">
                 <img
-                  src="/images/about-clinic.jpg"
+                  src={`${import.meta.env.BASE_URL}images/mira-clinic-exterior-evening.jpg`}
                   alt="Mira Dental Care & Implant Centre clinical facility and patient consultation lounge"
                   className="w-full h-[460px] object-cover"
                   loading="lazy"
@@ -53,15 +53,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking }) => 
                 </div>
               </div>
 
-              {/* Floating Google Review Pill */}
               <div className="absolute -top-4 -left-4 bg-white px-4 py-2.5 rounded-2xl shadow-lg border border-forest/10 flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-forest text-gold flex items-center justify-center font-bold text-xs">
-                  4.8
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-forest">238+ Verified Patients</div>
-                  <div className="text-[10px] text-charcoal/60">Hesarghatta Main Road</div>
-                </div>
+                <MapPin className="w-5 h-5 text-gold" />
+                <span className="text-xs font-bold text-forest">Bagalagunte, Bengaluru</span>
               </div>
             </motion.div>
           </div>

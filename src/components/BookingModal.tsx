@@ -18,7 +18,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
   const [name, setName] = useState('');
   const [mobile, setMobile] = useState('');
   const [treatment, setTreatment] = useState(preselectedTreatment || 'Root Canal Treatment');
-  const [preferredSlot, setPreferredSlot] = useState('Morning (10:00 AM - 1:30 PM)');
+  const [preferredSlot, setPreferredSlot] = useState('Morning preference (confirm with clinic)');
   const [notes, setNotes] = useState('');
 
   useEffect(() => {
@@ -149,12 +149,12 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   }`}
                 >
                   <div className="font-bold">Morning Session</div>
-                  <div className="text-[11px] opacity-80">10:00 AM – 1:30 PM</div>
+                  <div className="text-[11px] opacity-80">Preferred morning time</div>
                 </button>
 
                 <button
                   type="button"
-                  onClick={() => setPreferredSlot('Evening (5:00 PM - 8:30 PM)')}
+                  onClick={() => setPreferredSlot('Afternoon/evening preference (confirm with clinic)')}
                   className={`p-3 rounded-xl border text-xs font-semibold text-left transition-all ${
                     preferredSlot.includes('Evening')
                       ? 'border-forest bg-forest text-ivory shadow-sm'
@@ -162,7 +162,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   }`}
                 >
                   <div className="font-bold">Evening Session</div>
-                  <div className="text-[11px] opacity-80">5:00 PM – 8:30 PM</div>
+                  <div className="text-[11px] opacity-80">Preferred afternoon or evening time</div>
                 </button>
               </div>
             </div>

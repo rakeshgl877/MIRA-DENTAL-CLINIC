@@ -25,7 +25,7 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
             Meet Your Lead Dental Specialist
           </h2>
           <p className="text-base sm:text-lg text-charcoal/70 leading-relaxed">
-            Delivering pain-free, specialized dental care backed by academic gold medals, over a decade of hands-on expertise, and verified clinical registrations.
+            Learn about Dr. Ashwini Marurkar and contact the clinic to confirm appointment availability.
           </p>
         </div>
 
@@ -65,10 +65,7 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
                   {leadDoctor.regNumber}
                 </p>
 
-                {/* Transparency Note for Demo Concept */}
-                <div className="mt-3 text-[10px] text-ivory/60 bg-forest-900/80 px-2.5 py-1 rounded border border-white/10">
-                  Concept profile representation • Official clinic headshot verified upon production onboarding
-                </div>
+              </div>
               </div>
             </div>
 
@@ -87,7 +84,7 @@ export const DoctorsSection: React.FC<DoctorsSectionProps> = ({ onOpenBooking })
                   </span>
                   <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-50 text-emerald-800 text-xs font-semibold border border-emerald-200">
                     <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                    Karnataka Dental Council Verified
+                    Clinic profile
                   </span>
                 </div>
 

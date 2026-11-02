@@ -8,7 +8,7 @@ export const GallerySection: React.FC = () => {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
   const [activeFilter, setActiveFilter] = useState<string>('All');
 
-  const categories = ['All', 'Ambiance', 'Treatment Suite', 'Technology', 'Hygiene', 'Consultation'];
+  const categories = ['All', ...new Set(GALLERY_ITEMS.map((item) => item.category))];
 
   const filteredItems = activeFilter === 'All'
     ? GALLERY_ITEMS

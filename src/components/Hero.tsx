@@ -96,16 +96,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="pt-6 border-t border-forest/10 grid grid-cols-2 sm:grid-cols-3 gap-6"
             >
-              {/* Google Rating */}
+              {/* Public clinic profile */}
               <div className="flex flex-col">
-                <div className="flex items-center gap-1 text-amber-500 mb-1">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  ))}
-                  <span className="text-forest font-bold text-sm ml-1">4.8 / 5</span>
-                </div>
+                <div className="text-forest font-semibold text-sm mb-1">Clinic details</div>
                 <span className="text-xs text-charcoal/70">
-                  Based on <strong>238+ Google Reviews</strong>
+                  <a href="https://www.practo.com/bangalore/clinic/mira-dental-care-implant-centre-bagalakunte" target="_blank" rel="noopener noreferrer" className="underline">View clinic profile & photos</a>
                 </span>
               </div>
 
@@ -148,7 +143,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               {/* Main image container */}
               <div className="relative rounded-[1.75rem] overflow-hidden bg-forest shadow-2xl border-2 border-ivory">
                 <img
-                  src="/images/hero-clinic.jpg"
+                  src={`${import.meta.env.BASE_URL}images/mira-clinic-exterior-day.jpg`}
                   alt="Mira Dental Care & Implant Centre clinical treatment operatory in Bagalagunte, Bengaluru"
                   className="w-full h-[430px] sm:h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                   loading="eager"

@@ -14,23 +14,13 @@ export const TrustSection: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
             
-            {/* Rating Stat */}
             <div className="md:col-span-4 flex items-center gap-4 border-b md:border-b-0 md:border-r border-forest-600/60 pb-6 md:pb-0 md:pr-6">
-              <div className="w-16 h-16 rounded-2xl bg-gold/20 border border-gold/40 flex flex-col items-center justify-center shrink-0">
-                <span className="font-serif text-2xl font-bold text-gold">4.8</span>
-                <div className="flex text-gold">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-2.5 h-2.5 fill-gold text-gold" />
-                  ))}
-                </div>
+              <div className="w-16 h-16 rounded-2xl bg-gold/20 border border-gold/40 flex items-center justify-center shrink-0">
+                <MapPin className="w-7 h-7 text-gold" />
               </div>
               <div>
-                <div className="font-serif text-xl sm:text-2xl font-semibold text-ivory">
-                  238+ Google Reviews
-                </div>
-                <div className="text-xs text-ivory/70 mt-0.5">
-                  Top-rated dental destination on Hesarghatta Main Road
-                </div>
+                <div className="font-serif text-xl sm:text-2xl font-semibold text-ivory">Plan your visit</div>
+                <div className="text-xs text-ivory/70 mt-0.5">Call to confirm current clinic hours</div>
               </div>
             </div>
 
