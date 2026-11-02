@@ -43,13 +43,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             </span>
             <span className="flex items-center gap-1.5 text-ivory/90">
               <Clock className="w-3.5 h-3.5 text-gold" />
-              Mon - Sat: 10:00 AM - 1:30 PM | 5:00 PM - 8:30 PM
+              Call to confirm current clinic hours
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1 text-gold font-medium">
-              ★ 4.8 Rating (238+ Verified Patient Reviews)
-            </span>
+            <a href="https://www.practo.com/bangalore/clinic/mira-dental-care-implant-centre-bagalakunte" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-gold font-medium hover:text-gold-200">
+              View clinic profile
+            </a>
             <a
               href={`tel:${CLINIC_INFO.phoneRaw}`}
               className="text-ivory hover:text-gold transition-colors flex items-center gap-1 font-semibold"

@@ -141,7 +141,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 <button
                   type="button"
-                  onClick={() => setPreferredSlot('Morning (10:00 AM - 1:30 PM)')}
+                  onClick={() => setPreferredSlot('Morning preference (confirm with clinic)')}
                   className={`p-3 rounded-xl border text-xs font-semibold text-left transition-all ${
                     preferredSlot.includes('Morning')
                       ? 'border-forest bg-forest text-ivory shadow-sm'

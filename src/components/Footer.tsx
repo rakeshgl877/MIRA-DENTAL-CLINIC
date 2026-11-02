@@ -26,12 +26,12 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
               <ClinicLogo light size="lg" />
             </div>
             <p className="text-xs sm:text-sm text-ivory/70 leading-relaxed mb-6 max-w-sm">
-              Mira Dental Care & Implant Centre is a multi-specialty dental destination in Bagalagunte, Bengaluru, dedicated to painless, conservative, and aesthetic dentistry led by Dr. Ashwini Marurkar (MDS Endodontics).
+              Mira Dental Care & Implant Centre is listed in Bagalagunte, Bengaluru. Contact the clinic to confirm current treatments and appointment availability.
             </p>
-            <div className="p-3.5 rounded-xl bg-forest-900 border border-gold/30 text-xs text-gold flex items-center gap-2 max-w-sm">
-              <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
-              <span>Rated 4.8★ with 238+ Google Reviews</span>
-            </div>
+            <a href="https://www.practo.com/bangalore/clinic/mira-dental-care-implant-centre-bagalakunte" target="_blank" rel="noopener noreferrer" className="inline-flex p-3.5 rounded-xl bg-forest-900 border border-gold/30 text-xs text-gold items-center gap-2 max-w-sm hover:bg-forest-800 transition-colors">
+              <span className="w-2 h-2 rounded-full bg-gold" />
+              <span>View clinic profile and patient feedback</span>
+            </a>
           </div>
 
           {/* Column 2: Quick Links */}
